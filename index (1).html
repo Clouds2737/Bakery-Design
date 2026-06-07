@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maple St Bakery — Naugatuck, CT</title>
+  <meta name="description" content="Freshly baked every morning in Naugatuck, CT. Portuguese rolls, pastries, cakes, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav__logo">Maple St</a>
+    <ul class="nav__links">
+      <li><a href="#about">Story</a></li>
+      <li><a href="#products">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Visit</a></li>
+    </ul>
+    <a href="tel:2037232233" class="nav__cta">Call Us</a>
+    <button class="nav__hamburger" aria-label="Menu" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">Story</a></li>
+      <li><a href="#products" class="mobile-link">Menu</a></li>
+      <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+      <li><a href="#contact" class="mobile-link">Visit</a></li>
+    </ul>
+    <a href="tel:2037232233" class="mobile-cta">(203) 723-2233</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="/assets/image1.png" alt="Maple St Bakery" class="hero__img" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal-up">Naugatuck, Connecticut</p>
+      <h1 class="hero__title reveal-up delay-1">Maple St<br/><em>Bakery</em></h1>
+      <p class="hero__sub reveal-up delay-2">Freshly baked every morning.<br/>Made with hands, heart, and tradition.</p>
+      <div class="hero__actions reveal-up delay-3">
+        <a href="#products" class="btn btn--light">View Menu</a>
+        <a href="tel:2037232233" class="btn btn--ghost">Call Now</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__inner">
+      <div class="about__text fade-in">
+        <span class="label">Our Story</span>
+        <h2 class="about__heading">Where every<br/><em>loaf has a name</em></h2>
+        <p class="about__body">
+          Rooted in Portuguese baking tradition and shaped by classic American flavors, Maple St Bakery has been a cornerstone of Naugatuck since the very beginning. Every morning before sunrise, our bakers fill the kitchen with the scent of warm dough, toasted sugar, and fresh pastry.
+        </p>
+        <p class="about__body">
+          We believe good bread doesn't need shortcuts. What you taste is craft — passed down, perfected, and baked fresh daily.
+        </p>
+        <a href="#contact" class="link-arrow">Find us on Maple St →</a>
+      </div>
+      <div class="about__image fade-in delay-1">
+        <img src="/assets/image2.png" alt="Inside the bakery" />
+        <div class="about__image-tag">Est. Naugatuck, CT</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE STRIP -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Portuguese Rolls</span><span class="dot">·</span>
+      <span>Pastéis de Nata</span><span class="dot">·</span>
+      <span>Cannoli</span><span class="dot">·</span>
+      <span>Tiramisu Cake</span><span class="dot">·</span>
+      <span>Bacon Egg &amp; Cheese</span><span class="dot">·</span>
+      <span>Coconut Macaroons</span><span class="dot">·</span>
+      <span>Birthday Cakes</span><span class="dot">·</span>
+      <span>Portuguese Rolls</span><span class="dot">·</span>
+      <span>Pastéis de Nata</span><span class="dot">·</span>
+      <span>Cannoli</span><span class="dot">·</span>
+      <span>Tiramisu Cake</span><span class="dot">·</span>
+      <span>Bacon Egg &amp; Cheese</span><span class="dot">·</span>
+      <span>Coconut Macaroons</span><span class="dot">·</span>
+      <span>Birthday Cakes</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="products__header fade-in">
+      <span class="label">What We Bake</span>
+      <h2 class="products__heading">The Menu</h2>
+    </div>
+
+    <div class="products__grid">
+
+      <div class="product-item product-item--large fade-in">
+        <div class="product-item__img-wrap">
+          <img src="/assets/image3.png" alt="Portuguese Rolls" />
+          <div class="product-item__overlay">
+            <h3>Portuguese Rolls</h3>
+            <p>Soft, pillowy, and golden — a house classic.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-item fade-in delay-1">
+        <div class="product-item__img-wrap">
+          <img src="/assets/image4.png" alt="Bacon Egg & Cheese Roll" />
+          <div class="product-item__overlay">
+            <h3>Bacon Egg &amp; Cheese Roll</h3>
+            <p>The breakfast roll that keeps people coming back.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-item fade-in delay-2">
+        <div class="product-item__img-wrap">
+          <img src="/assets/image5.png" alt="Cannoli" />
+          <div class="product-item__overlay">
+            <h3>Cannoli</h3>
+            <p>Crisp shell. Creamy filling. Perfect every time.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-item product-item--wide fade-in delay-1">
+        <div class="product-item__img-wrap">
+          <img src="/assets/image6.png" alt="Tiramisu Cake" />
+          <div class="product-item__overlay">
+            <h3>Tiramisu Cake</h3>
+            <p>Layers of espresso-soaked sponge and mascarpone cream.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-item fade-in">
+        <div class="product-item__img-wrap">
+          <img src="/assets/image7.png" alt="Coconut Macaroons" />
+          <div class="product-item__overlay">
+            <h3>Coconut Macaroons</h3>
+            <p>Toasted coconut, chewy inside, golden outside.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-item fade-in delay-1">
+        <div class="product-item__img-wrap">
+          <img src="/assets/image8.png" alt="Pastéis de Nata" />
+          <div class="product-item__overlay">
+            <h3>Pastéis de Nata</h3>
+            <p>Flaky pastry cups filled with silky custard.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-item product-item--tall fade-in delay-2">
+        <div class="product-item__img-wrap">
+          <img src="/assets/image9.png" alt="Birthday Cakes" />
+          <div class="product-item__overlay">
+            <h3>Birthday Cakes</h3>
+            <p>Custom celebrations, baked to order.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BANNER -->
+  <section class="banner" id="banner">
+    <div class="banner__bg">
+      <img src="/assets/image10.png" alt="Bakery kitchen" class="banner__img" id="parallaxBg" />
+      <div class="banner__overlay"></div>
+    </div>
+    <div class="banner__content fade-in">
+      <p class="banner__eyebrow">Since Day One</p>
+      <h2 class="banner__quote">Baked with tradition.<br/><em>Served with pride.</em></h2>
+      <div class="banner__line"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="gallery__header fade-in">
+      <span class="label">From the Kitchen</span>
+      <h2 class="gallery__heading">A Closer Look</h2>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery-item gallery-item--tall fade-in">
+        <img src="/assets/image11.png" alt="Bakery detail" />
+      </div>
+      <div class="gallery-item fade-in delay-1">
+        <img src="/assets/image12.png" alt="Fresh pastries" />
+      </div>
+      <div class="gallery-item fade-in delay-2">
+        <img src="/assets/image13.png" alt="Baked goods" />
+      </div>
+      <div class="gallery-item gallery-item--wide fade-in delay-1">
+        <img src="/assets/image14.png" alt="Morning bake" />
+      </div>
+      <div class="gallery-item fade-in delay-2">
+        <img src="/assets/image15.png" alt="Pastry close-up" />
+      </div>
+      <div class="gallery-item gallery-item--tall fade-in">
+        <img src="/assets/image16.png" alt="Inside Maple St" />
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="reviews__inner">
+      <div class="reviews__header fade-in">
+        <span class="label">What People Say</span>
+        <h2 class="reviews__heading">Heard Around<br/><em>the Neighborhood</em></h2>
+      </div>
+      <div class="reviews__grid">
+        <div class="review fade-in">
+          <div class="review__stars">★★★★★</div>
+          <blockquote class="review__quote">"Best pastries in town — everything tastes fresh and handmade. I drive past three other bakeries just to come here."</blockquote>
+          <cite class="review__author">— Maria T., Naugatuck</cite>
+        </div>
+        <div class="review review--featured fade-in delay-1">
+          <div class="review__stars">★★★★★</div>
+          <blockquote class="review__quote">"The bacon egg &amp; cheese roll is unmatched. I've had it everywhere — nothing compares to Maple St."</blockquote>
+          <cite class="review__author">— James R., Waterbury</cite>
+        </div>
+        <div class="review fade-in delay-2">
+          <div class="review__stars">★★★★★</div>
+          <blockquote class="review__quote">"Feels like a hidden gem bakery you want to keep secret. The Portuguese rolls alone are worth the trip."</blockquote>
+          <cite class="review__author">— Sofia C., Derby</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="contact__info fade-in">
+        <span class="label">Come Visit</span>
+        <h2 class="contact__heading">Find Us on<br/><em>Maple Street</em></h2>
+
+        <div class="contact__details">
+          <div class="contact__item">
+            <span class="contact__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </span>
+            <div>
+              <p class="contact__label">Address</p>
+              <p class="contact__value">167 Maple St<br/>Naugatuck, CT 06770</p>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <span class="contact__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </span>
+            <div>
+              <p class="contact__label">Phone</p>
+              <a href="tel:2037232233" class="contact__value">(203) 723-2233</a>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <span class="contact__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </span>
+            <div>
+              <p class="contact__label">Hours</p>
+              <p class="contact__value">
+                Mon – Fri: 6:00 AM – 4:00 PM<br/>
+                Sat – Sun: 6:00 AM – 2:00 PM
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__actions">
+          <a href="https://maps.google.com/?q=167+Maple+St+Naugatuck+CT+06770" target="_blank" rel="noopener" class="btn btn--dark">Get Directions</a>
+          <a href="tel:2037232233" class="btn btn--outline-dark">Call Now</a>
+        </div>
+      </div>
+
+      <div class="contact__visual fade-in delay-1">
+        <div class="contact__map-placeholder">
+          <img src="/assets/image17.png" alt="Maple St Bakery exterior" />
+          <div class="contact__map-pin">
+            <div class="pin-dot"></div>
+            <p>Maple St Bakery</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <p class="footer__logo">Maple St Bakery</p>
+        <p class="footer__tagline">Freshly baked in Naugatuck, CT</p>
+      </div>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="#" aria-label="TikTok" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+        </a>
+      </div>
+      <p class="footer__copy">&copy; 2025 Maple St Bakery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
